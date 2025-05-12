@@ -1,0 +1,40 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+/* Reset default margin & padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body base styles */
+body {
+  font-family: 'Poppins', sans-serif; /* or any font you prefer */
+  background-color: #292828;          /* light background */
+  color: #eceaea;                        /* dark text */
+  line-height: 1.6;
+  overflow-x: hidden;
+
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  
+  
+}

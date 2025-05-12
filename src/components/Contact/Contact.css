@@ -1,0 +1,110 @@
+.contact-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f2027);
+  color: #ffffff;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1 1 400px;
+  min-width: 300px;
+}
+
+.contact-left h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00c6ff;
+}
+
+.contact-left p {
+  font-size: 1.1rem;
+  margin: 0.8rem 0;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+/* Icons Section */
+.contact-icons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-icons a {
+  color: #00c6ff;
+  transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: #0072ff;
+}
+
+.contact-right {
+  background: linear-gradient(135deg, #13242f, #1e384b);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 198, 255, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #1c2b36;
+  border: 1px solid #314e63;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #a0b3c5;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00c6ff;
+  box-shadow: 0 0 5px #00c6ff88;
+}
+
+.contact-form textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.contact-form button {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  transform: translateY(-2px);
+}
