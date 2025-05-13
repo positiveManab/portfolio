@@ -1,11 +1,11 @@
 import React from "react";
 import "./Mywork.css";
-import marksheet from "../../assets/MARKSHEET.JPG";
-import event from "../../assets/EVENT.JPG";
-import powerTheft from "../../assets/POWER_THEFT.JPG";
-import energyMeter from "../../assets/ENERGY_METER.JPG";
-import smartGrid from "../../assets/SMART_GRID.JPG";
-import sms from "../../assets/SMS.JPG";
+import marksheet from "../../assets/MARKSHEET.jpg";
+import event from "../../assets/EVENT.jpg";
+import powerTheft from "../../assets/POWER_THEFT.jpg";
+import energyMeter from "../../assets/ENERGY_METER.jpg";
+import smartGrid from "../../assets/SMART_GRID.jpg";
+import sms from "../../assets/SMS.jpg";
 
 const workItems = [
   { img: marksheet, title: "Marksheet Generator" },
